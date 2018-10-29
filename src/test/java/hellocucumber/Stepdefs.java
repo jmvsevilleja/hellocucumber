@@ -20,6 +20,17 @@ public class Stepdefs {
     private String today;
     private String actualAnswer;
 
+
+    @Given("^today is Sunday$")
+    public void today_is_Sunday() {
+        this.today = "Sunday";
+    }
+
+    @Given("^today is Friday$")
+    public void today_is_Friday() {
+        this.today = "Friday";
+    }
+
     @Given("^today is \"([^\"]*)\"$")
     public void today_is(String today) {
         this.today = today;

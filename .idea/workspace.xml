@@ -47,14 +47,14 @@
           <entry key="feature" value="13" />
           <entry key="java" value="21" />
           <entry key="md" value="2" />
-          <entry key="txt" value="25" />
+          <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="21" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="48" />
           <entry key="Substeps" value="13" />
         </counts>
       </usages-collector>
@@ -79,7 +79,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="30">
-                <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+                <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -218,7 +218,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540793858607" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540793918297" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../droidle-framework" />
   </component>
   <component name="RecentsManager">
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540793772971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added cucumber link">
+      <created>1540793883067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540793883067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -323,7 +330,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace, added scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace, added scenario" />
+    <MESSAGE value="added cucumber link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cucumber link" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hellocucumber.iml">
@@ -380,7 +388,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
-            <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>

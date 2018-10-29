@@ -1,3 +1,3 @@
 # hellocucumber
 
-https://docs.cucumber.io/guides/s
+https://docs.cucumber.io/guides

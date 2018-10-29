@@ -1,4 +1,4 @@
-@friday_outline
+@friday @friday_outline
 Feature: Is it Friday yet using outline?
   Everybody wants to know when it's Friday
 

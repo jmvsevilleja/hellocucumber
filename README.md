@@ -8,3 +8,4 @@ You can tell Cucumber to only run scenarios with a particular tag:
 
 `mvn test -Dcucumber.options='--tags @friday'`
 
+`mvn test -Dcucumber.options='--tags @friday,@sunday'`

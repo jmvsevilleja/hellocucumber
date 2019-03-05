@@ -1,7 +1,7 @@
 @google_search
 
-Feature: Is it Friday yet?
-  Everybody wants to know when it's Friday
+Feature: Google Search Title Verification?
+  Search a test and validated the page title
 
 Scenario: Finding some cheese
    Given I am on the Google search page

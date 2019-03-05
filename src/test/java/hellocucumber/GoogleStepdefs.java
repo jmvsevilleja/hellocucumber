@@ -1,11 +1,10 @@
-package class.example
+package hellocucumber;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+// import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,7 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 
-public class WebDriverFactory {
+/*public class WebDriverFactory {
     public static WebDriver createWebDriver() {
         String webdriver = System.getProperty("browser", "firefox");
         switch(webdriver) {
@@ -26,10 +25,14 @@ public class WebDriverFactory {
                 throw new RuntimeException("Unsupported webdriver: " + webdriver);
         }
     }
-}
+}*/
+
 
 public class GoogleStepdefs {
-    
+
+    // private final WebDriver driver = new FirefoxDriver();
+    private final WebDriver driver = new ChromeDriver();
+
     @Given("^I am on the Google search page$")
     public void I_visit_google() {
         driver.get("https:\\www.google.com");
